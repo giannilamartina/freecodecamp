@@ -1,0 +1,6 @@
+let dog = {
+  name: 'Darryl',
+  numLegs: 4
+};
+
+console.log(dog);
