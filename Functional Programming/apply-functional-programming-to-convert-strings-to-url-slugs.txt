@@ -1,0 +1,10 @@
+// Only change code below this line
+function urlSlug(title) {
+  return title
+    .toLowerCase(title) //self-explanatory
+    .trim() //removes whitespace
+    .split(/\s+/) //s splits between any whitespace character, + denotes unlimited times
+    .join("-")//creates and returns new string separated by specified -
+
+}
+// Only change code above this line
