@@ -1,0 +1,12 @@
+function sumAll(arr) {
+  //Since numbers won't always be in order, max and min will help organize
+  let max = Math.max(arr[0], arr[1]); //create variable to store max number
+  let min = Math.min(arr[0], arr[1]); //create variable to store min number
+  let sumBetween = 0; //create accumulator variable to hold incrememented sum
+  for (let i = min; i <= max; i++) {
+    sumBetween += i;
+  }
+  return sumBetween;
+}
+
+sumAll([1, 4]);
