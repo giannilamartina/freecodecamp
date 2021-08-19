@@ -1,5 +1,6 @@
 <style type='text/scss'>
-  @mixin border-radius($radius){
+
+  @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
@@ -12,7 +13,6 @@
     height: 150px;
     background-color: green;
     @include border-radius(15px);
-
   }
 </style>
 
